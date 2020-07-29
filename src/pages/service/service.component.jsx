@@ -8,7 +8,6 @@ const ServicePage = () => {
     const serviceId = useParams();
     const [services, setServices] = useState(data);
     const myService = services.find((service) => service.id === serviceId.id);
-    console.log(myService);
     return (
         <>
             <InnerHeader title='Третман' subtitle={myService.title} />
