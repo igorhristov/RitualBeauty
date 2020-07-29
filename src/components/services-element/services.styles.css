@@ -1,0 +1,27 @@
+.services {
+    padding: 80px 0;
+    background: #f6f6f6;
+    color: #272727;
+    text-align: center;
+}
+
+
+.service-card {
+    min-height: 250px;
+}
+.service-card h3 {
+    text-transform: uppercase;
+}
+.service-card p {
+    line-height: 25px;
+}
+
+.service-img {
+    padding: 20px 0;
+    position: relative;
+}
+
+.service-img img {
+    width: auto;
+    height: 90px;
+}
