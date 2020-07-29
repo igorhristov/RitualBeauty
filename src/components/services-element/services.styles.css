@@ -9,9 +9,7 @@
 .service-card {
     min-height: 250px;
 }
-.service-card h3 {
-    text-transform: uppercase;
-}
+
 .service-card p {
     line-height: 25px;
 }
