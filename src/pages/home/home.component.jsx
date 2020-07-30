@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 import CarouselComponent from '../../components/carousel/carousel.component';
 import ParallaxComponent from '../../components/parallax/parallax.component';
 import Testemonial from '../../components/testemonial/testemonial.component';

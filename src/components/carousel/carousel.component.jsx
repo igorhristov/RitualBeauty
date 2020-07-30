@@ -8,10 +8,10 @@ import CustomButton from '../Button/Button.Component';
 import './carousel.styles.css';
 
 const CarouselComponent = () => (
-    <Carousel fade className='carousel-component'>
+    <Carousel style={{ marginTop: '80px' }} fade className='carousel-component'>
         <Carousel.Item>
             <img className='d-block w-100' src={image1} alt='First slide' />
-            <Carousel.Caption  className="text-left pt-0 pt-lg-5">
+            <Carousel.Caption className='text-left pt-0 pt-lg-5'>
                 <h3>КОСА</h3>
                 <p>СТИЛ/ТРЕНД/НОВОСТИ</p>
                 <CustomButton title='Read More' />
@@ -20,7 +20,7 @@ const CarouselComponent = () => (
         <Carousel.Item>
             <img className='d-block w-100' src={image2} alt='Third slide' />
 
-            <Carousel.Caption className="text-left pt-0 pt-lg-5">
+            <Carousel.Caption className='text-left pt-0 pt-lg-5'>
                 <h3>ЛИЦЕ</h3>
                 <p>БЕСПРЕКОРНОСТ И УБАВИНА</p>
                 <CustomButton title='Read More' />
@@ -29,7 +29,7 @@ const CarouselComponent = () => (
         <Carousel.Item>
             <img className='d-block w-100' src={image3} alt='Third slide' />
 
-            <Carousel.Caption  className="text-left pt-0 pt-lg-5">
+            <Carousel.Caption className='text-left pt-0 pt-lg-5'>
                 <h3>ТЕЛО</h3>
                 <p>ЛИНИЈА,НЕГА И ЗДРАВЈЕ</p>
                 <CustomButton title='Read More' />
