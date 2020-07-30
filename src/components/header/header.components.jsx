@@ -26,6 +26,9 @@ const Header = () => (
                 <NavLink activeStyle={{ color: 'white', fontWeight: 'bold' }} className='nav-link' to='/about-us'>
                     За Нас
                 </NavLink>
+                <NavLink activeStyle={{ color: 'white', fontWeight: 'bold' }} className='nav-link' to='/gallery'>
+                    Галерија
+                </NavLink>
                 <NavLink activeStyle={{ color: 'white', fontWeight: 'bold' }} className='nav-link' to='/contact-us'>
                     Контакт
                 </NavLink>

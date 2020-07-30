@@ -20,14 +20,17 @@ const AboutPage = () => (
                             vidlivi.
                         </p>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia saepe quis reiciendis
-                            quibusdam nostrum quo sunt repudiandae, odit minima nobis possimus nemo ullam inventore quod
-                            adipisci asperiores ab recusandae odio.
+                            Ние сме редовни посетители на најпознатите семинари и конгреси за убавина во светот, учиме,
+                            се надградуваме, ги следиме трендовите и ви ги правиме достапни најдокажаните и
+                            најефективните иновации од светските центри на убавина како Италија, Англија, Франција,
+                            Америка.
                         </p>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque et, iste dignissimos labore
-                            dolorum repellat totam quaerat doloribus quos aperiam recusandae aspernatur quia aliquid,
-                            impedit necessitatibus iusto ex aut? Tempora!
+                            Нашиот салон прави спој на најсовремена светска технологија и обучен персонал. Салонот
+                            располага со над 50 видови апарати со повеќе функции и програми кои опфаќаат третмани на
+                            лице, тело и коса, кои во рацете на нашиот едуциран и високостручен персонал прават
+                            вистински чуда и не само што ги остваруваат, туку и ги надминуваат вашите соништа за
+                            убавина. Третманите кои ви ги нудиме од вас ќе направат олицетворение на убавината.
                         </p>
                     </div>
                 </Col>

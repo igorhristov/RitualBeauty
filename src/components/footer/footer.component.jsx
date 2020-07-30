@@ -84,12 +84,9 @@ const Footer = () => (
         <Container fluid className='footer-bottom px-0'>
             <Row noGutters className='mx-0'>
                 <div className='col-md-12 text-center'>
-                    <p>
-                        Copyright © 2020 <span className='template-name'>Ritual Beauty</span>. Made by{' '}
-                        <a rel='noopener noreferrer' href='https://google.com' target='_blank'>
-                            Igor Hristov
-                        </a>
-                    </p>
+                    <h6 className="text-uppercase">
+                        Copyright ©2020 <span className='template-name'>Ritual Beauty</span>
+                    </h6>
                 </div>
             </Row>
         </Container>
