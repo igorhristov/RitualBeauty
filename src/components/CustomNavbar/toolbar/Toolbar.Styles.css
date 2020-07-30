@@ -20,7 +20,7 @@
 
 .toolbar-logo a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .toolbar-logo a:hover,
 .toolbar-logo a:active {
@@ -38,13 +38,14 @@
     display: flex;
 }
 .toolbar-navigation-items li {
-    padding: 0 0.5rem;
+    padding: 0 0.2rem;
 }
 
 .toolbar-navigation-items a {
     color: white;
-    opacity: 0.7;
+    opacity: 0.8;
     text-transform: uppercase;
+    font-size: small;
 }
 .toolbar-navigation-items a:hover,
 .toolbar-navigation-items a:active {
