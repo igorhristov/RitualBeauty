@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RitualBeauty/static/css/main.1b0abc80.chunk.css",
-    "main.js": "/RitualBeauty/static/js/main.09a57171.chunk.js",
-    "main.js.map": "/RitualBeauty/static/js/main.09a57171.chunk.js.map",
+    "main.css": "/RitualBeauty/static/css/main.3c9e93bd.chunk.css",
+    "main.js": "/RitualBeauty/static/js/main.a186482a.chunk.js",
+    "main.js.map": "/RitualBeauty/static/js/main.a186482a.chunk.js.map",
     "runtime-main.js": "/RitualBeauty/static/js/runtime-main.69c5a060.js",
     "runtime-main.js.map": "/RitualBeauty/static/js/runtime-main.69c5a060.js.map",
     "static/css/2.af3c1da9.chunk.css": "/RitualBeauty/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.41287c2d.chunk.js": "/RitualBeauty/static/js/2.41287c2d.chunk.js",
-    "static/js/2.41287c2d.chunk.js.map": "/RitualBeauty/static/js/2.41287c2d.chunk.js.map",
+    "static/js/2.547267cc.chunk.js": "/RitualBeauty/static/js/2.547267cc.chunk.js",
+    "static/js/2.547267cc.chunk.js.map": "/RitualBeauty/static/js/2.547267cc.chunk.js.map",
     "index.html": "/RitualBeauty/index.html",
-    "precache-manifest.82919160299f04604e2826de28c86cbf.js": "/RitualBeauty/precache-manifest.82919160299f04604e2826de28c86cbf.js",
+    "precache-manifest.fb92cb6346f229d6a37a3b3423668425.js": "/RitualBeauty/precache-manifest.fb92cb6346f229d6a37a3b3423668425.js",
     "service-worker.js": "/RitualBeauty/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/RitualBeauty/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.1b0abc80.chunk.css.map": "/RitualBeauty/static/css/main.1b0abc80.chunk.css.map",
-    "static/js/2.41287c2d.chunk.js.LICENSE.txt": "/RitualBeauty/static/js/2.41287c2d.chunk.js.LICENSE.txt",
+    "static/css/main.3c9e93bd.chunk.css.map": "/RitualBeauty/static/css/main.3c9e93bd.chunk.css.map",
+    "static/js/2.547267cc.chunk.js.LICENSE.txt": "/RitualBeauty/static/js/2.547267cc.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/RitualBeauty/static/media/01.a63d332e.jpg",
     "static/media/02.jpg": "/RitualBeauty/static/media/02.2d6aa2d9.jpg",
     "static/media/03.jpg": "/RitualBeauty/static/media/03.fd439753.jpg",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.69c5a060.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.41287c2d.chunk.js",
-    "static/css/main.1b0abc80.chunk.css",
-    "static/js/main.09a57171.chunk.js"
+    "static/js/2.547267cc.chunk.js",
+    "static/css/main.3c9e93bd.chunk.css",
+    "static/js/main.a186482a.chunk.js"
   ]
 }
