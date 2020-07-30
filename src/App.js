@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/home/home.component';
 import AboutUs from './pages/about/about.component';
+import GalleryPage from './pages/gallery/gallery.component';
 import ContactUs from './pages/contact/contact.component';
 import ServicesPage from './pages/services/services.component';
 import ServicePage from './pages/service/service.component';
@@ -32,6 +33,9 @@ const App = () => {
                 </Route>
                 <Route path='/contact-us'>
                     <ContactUs />
+                </Route>
+                <Route path='/gallery'>
+                    <GalleryPage />
                 </Route>
             </Switch>
             <Footer />

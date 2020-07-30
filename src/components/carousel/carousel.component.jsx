@@ -12,8 +12,8 @@ const CarouselComponent = () => (
         <Carousel.Item>
             <img className='d-block w-100' src={image1} alt='First slide' />
             <Carousel.Caption  className="text-left pt-0 pt-lg-5">
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>КОСА</h3>
+                <p>СТИЛ/ТРЕНД/НОВОСТИ</p>
                 <CustomButton title='Read More' />
             </Carousel.Caption>
         </Carousel.Item>
@@ -21,8 +21,8 @@ const CarouselComponent = () => (
             <img className='d-block w-100' src={image2} alt='Third slide' />
 
             <Carousel.Caption className="text-left pt-0 pt-lg-5">
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>ЛИЦЕ</h3>
+                <p>БЕСПРЕКОРНОСТ И УБАВИНА</p>
                 <CustomButton title='Read More' />
             </Carousel.Caption>
         </Carousel.Item>
@@ -30,8 +30,8 @@ const CarouselComponent = () => (
             <img className='d-block w-100' src={image3} alt='Third slide' />
 
             <Carousel.Caption  className="text-left pt-0 pt-lg-5">
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>ТЕЛО</h3>
+                <p>ЛИНИЈА,НЕГА И ЗДРАВЈЕ</p>
                 <CustomButton title='Read More' />
             </Carousel.Caption>
         </Carousel.Item>
