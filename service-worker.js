@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RitualBeauty/precache-manifest.e4450f83e5b4064e2a6afbaabe50e67f.js"
+  "/RitualBeauty/precache-manifest.82919160299f04604e2826de28c86cbf.js"
 );
 
 self.addEventListener('message', (event) => {
