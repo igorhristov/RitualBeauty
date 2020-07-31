@@ -18,7 +18,7 @@ const CarouselData = [
     {
         imgUrl: image3,
         title: 'ТЕЛО',
-        body: 'ЛИНИЈА,НЕГА И ЗДРАВЈЕ',
+        body: 'ЛИНИЈА, НЕГА И ЗДРАВЈЕ',
         imgAlt: 'ТЕЛО',
     },
 ];

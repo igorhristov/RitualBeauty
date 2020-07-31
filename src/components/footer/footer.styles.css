@@ -2,9 +2,10 @@
     position: relative;
     overflow: hidden;
     display: block;
-    padding-top: 80px;
+    padding-top: 60px;
     background-color: #101010;
     color: white;
+    border-top: 5px solid #EC4090;
 }
 
 .footer-top {
