@@ -15,7 +15,7 @@ const SideDrawer = (props) => {
         <nav className={drawerClasses}>
             <ul>
                 {MainMenu.map((menu) => (
-                    <li>
+                    <li key={menu.title}>
                         <Link style={{ textDecoration: 'none' }} to={menu.linkUrl}>
                             {menu.title}
                         </Link>

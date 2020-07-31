@@ -22,7 +22,7 @@ const Toolbar = (props) => (
             <div className='toolbar-navigation-items'>
                 <ul>
                     {MainMenu.map((menu) => (
-                        <li>
+                        <li key={menu.title}>
                             <Link style={{ textDecoration: 'none' }} to={menu.linkUrl}>
                                 {menu.title}
                             </Link>
