@@ -6,9 +6,30 @@
 }
 
 .carousel-component .carousel-caption h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 300;
     color: white;
     background-color: rgba(236, 64, 144, 0.3);
+
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+    0% {
+        transform: translateY(-1000%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-component .carousel-caption h3 {
+        font-size: 1.5rem;
+    }
+}
+
+.carousel-component .carousel-caption h3 {
+    transform: translateX(0);
 }

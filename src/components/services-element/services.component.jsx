@@ -2,7 +2,7 @@ import React from 'react';
 import './services.styles.css';
 
 import SectionTitle from '../section-title/sectionTitle.component';
-import CustomButton from '../Button/Button.Component';
+// import CustomButton from '../Button/Button.Component';
 import ServiceCardElement from './service.card/service.card.component';
 
 const Services = () => (
