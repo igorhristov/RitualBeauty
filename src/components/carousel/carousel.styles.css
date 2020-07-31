@@ -4,3 +4,11 @@
     height: 5px;
     border-radius: 100%;
 }
+
+.carousel-component .carousel-caption h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(236, 64, 144, 0.3);
+}
