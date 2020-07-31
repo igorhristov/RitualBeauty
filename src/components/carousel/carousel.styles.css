@@ -4,25 +4,3 @@
     height: 5px;
     border-radius: 100%;
 }
-.carousel-component .carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.carousel-component .carousel-control-prev-icon {
-    /* background-image: url('https://previews.123rf.com/images/faysalfarhan/faysalfarhan1711/faysalfarhan171115356/89328930-back-arrow-icon-isolated-on-pink-round-button-abstract-illustration.jpg'); */
-}
-
-@media (max-width: 700px) {
-    .carousel-component h3 {
-        font-size: 25px;
-        margin: 0 auto;
-    }
-    .carousel-component p {
-        font-size: 12px;
-        margin: 0 auto 10px;
-    }
-    .carousel-component .ServicesButton.btn.btn-outline-danger {
-        padding: 5px 8px;
-    }
-}
