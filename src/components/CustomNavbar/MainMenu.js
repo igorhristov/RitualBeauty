@@ -6,7 +6,7 @@ const MainMenu = [
 
     {
         title: 'Шминки',
-        linkUrl: '/services',
+        linkUrl: '/makeups',
     },
     {
         title: 'Депилација',
