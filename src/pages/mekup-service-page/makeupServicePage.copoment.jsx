@@ -1,38 +1,43 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import makeupsdata from '../../data/makeup/makeups';
+import makeupsdata from '../../data/makeups';
 
 import InnerHeader from '../../components/innerHeader/innerHeader.component';
 
 const MakeupServicePage = () => {
     const serviceId = useParams();
-    console.log(serviceId);
-    const myService = makeupsdata.filter((service) => service.id === serviceId.id);
-
+    const myService = makeupsdata.find((service) => service.id === serviceId.id);
     return (
-        <>
-            <InnerHeader title='Третман' subtitle={myService.title} />
+        <div style={{ background: '#F6F6F6' }}>
+            <InnerHeader title='Шминка' subtitle={myService.title} />
 
             <div className='container'>
                 <div className='row'>
                     <div className='col-12'>
-                        <h2 style={{ color: '#EC4090' }} className='text-center'>
+                        {/* <h2 style={{ color: '#EC4090' }} className='text-center'>
                             {myService.title}
-                        </h2>
-                        <div>
-                            {myService.body}
+                        </h2> */}
+                        <div className='mb-4'>
+                            {myService.body.map((item) => (
+                                <p  className='px-lg-5 m-1 ' key={item}>
+                                    {item}
+                                </p>
+                            ))}
                         </div>
-                        <div className='text-center pb-5'>
-                            <img
-                                className='w-100'
-                                alt='service '
-                                src={require(`../../assets/images/${myService.imgUrl}`)}
-                            />
+                        <div className='cards pb-5 text-center'>
+                            {myService.gallery.map((image) => (
+                                <img
+                                    alt='makups'
+                                    key={image}
+                                    className='p-1'
+                                    src={require(`../../assets/images/${image}`)}
+                                />
+                            ))}
                         </div>
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

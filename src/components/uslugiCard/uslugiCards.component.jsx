@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import Button from '../Button/Button.Component';
 
-const ServicesCard = ({ id, imgUrl, title,  spic, linkUrl }) => (
-    <Card className='' style={{ borderColor: 'transparent' }}>
+const ServicesCard = ({ id, imgUrl, title, spic, linkUrl }) => (
+    <Card className='' style={{ borderColor: 'transparent', background: '#F6F6F6' }}>
         <Card.Img
             variant='bottom'
             src={require(`../../assets/images/${imgUrl}`)}
@@ -22,7 +22,7 @@ const ServicesCard = ({ id, imgUrl, title,  spic, linkUrl }) => (
             <Card.Text className='mt-0 py-0'>{spic}</Card.Text>
         </Card.Body>
         <Card.Footer style={{ background: 'none', borderColor: 'transparent' }}>
-            <Link className='ServicesButton ' to={`/${linkUrl}/${id}`}>
+            <Link className='ServicesButton ' to={`${linkUrl}/${id}`}>
                 <Button title='Повеќе' />
             </Link>
         </Card.Footer>

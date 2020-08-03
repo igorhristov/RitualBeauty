@@ -38,6 +38,7 @@ const App = () => (
             <Route path='/services/:id'>
                 <ServicePage />
             </Route>
+            
             <Route path='/gallery'>
                 <GalleryPage />
             </Route>
