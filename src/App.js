@@ -2,47 +2,49 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/home/home.component';
-import AboutUs from './pages/about/about.component';
 import GalleryPage from './pages/gallery/gallery.component';
 import ContactUs from './pages/contact/contact.component';
 import ServicesPage from './pages/services/services.component';
 import ServicePage from './pages/service/service.component';
 
 import MakeupsPage from './pages/makeups/makeups.component';
+import MakeupsServicePage from'./pages/mekup-service-page/makeupServicePage.copoment'
 
-// import Header from './components/header/header.components';
+import Header from './components/CustomNavbar/CustomNavbar';
 import Footer from './components/footer/footer.component';
 import ScrollToTop from './components/scrollToTop/scrollToTop.component';
 
-import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 
 import './App.css';
 
 const App = () => (
     <Router>
-        <CustomNavbar />
+        <Header />
         <Switch>
             <Route exact path='/'>
                 <Home />
             </Route>
-            <Route path='/makeups'>
+
+            <Route exact path='/makeups'>
                 <MakeupsPage />
             </Route>
+            <Route path='/makeups/:id'>
+                <MakeupsServicePage />
+            </Route>
+
             <Route exact path='/services'>
                 <ServicesPage />
             </Route>
             <Route path='/services/:id'>
                 <ServicePage />
             </Route>
-            <Route path='/about-us'>
-                <AboutUs />
+            <Route path='/gallery'>
+                <GalleryPage />
             </Route>
             <Route path='/contact-us'>
                 <ContactUs />
             </Route>
-            <Route path='/gallery'>
-                <GalleryPage />
-            </Route>
+            
         </Switch>
 
         <Footer />

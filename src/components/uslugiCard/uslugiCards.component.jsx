@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import Button from '../Button/Button.Component';
 
-const ServicesCard = ({ id, imgUrl, title, body, spic }) => (
+const ServicesCard = ({ id, imgUrl, title,  spic, linkUrl }) => (
     <Card className='' style={{ borderColor: 'transparent' }}>
         <Card.Img
             variant='bottom'
@@ -22,7 +22,7 @@ const ServicesCard = ({ id, imgUrl, title, body, spic }) => (
             <Card.Text className='mt-0 py-0'>{spic}</Card.Text>
         </Card.Body>
         <Card.Footer style={{ background: 'none', borderColor: 'transparent' }}>
-            <Link className='ServicesButton ' to={`/services/${id}`}>
+            <Link className='ServicesButton ' to={`/${linkUrl}/${id}`}>
                 <Button title='Повеќе' />
             </Link>
         </Card.Footer>
