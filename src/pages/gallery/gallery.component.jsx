@@ -3,8 +3,11 @@ import InnerHeader from '../../components/innerHeader/innerHeader.component';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Salon from './salon.jpg';
 
+import ScrollToTopOnMount from '../../components/autoToTopScroll/scrollToTop';
+
 const AboutPage = () => (
     <>
+        <ScrollToTopOnMount />
         <InnerHeader title='За Нас' subtitle='Дознајте повеќе за нас' />
         <Container style={{ margin: '80px auto 60px' }} className='d-flex justify-content-center align-items-center '>
             <Row>
@@ -13,7 +16,6 @@ const AboutPage = () => (
                         Ritual Beauty
                     </h2>
                     <div>
-                    
                         <p>
                             Ние сме редовни посетители на најпознатите семинари и конгреси за убавина во светот, учиме,
                             се надградуваме, ги следиме трендовите и ви ги правиме достапни најдокажаните и

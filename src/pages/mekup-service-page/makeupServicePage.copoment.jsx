@@ -4,11 +4,14 @@ import makeupsdata from '../../data/makeups';
 
 import InnerHeader from '../../components/innerHeader/innerHeader.component';
 
+import ScrollToTopOnMount from '../../components/autoToTopScroll/scrollToTop';
+
 const MakeupServicePage = () => {
     const serviceId = useParams();
     const myService = makeupsdata.find((service) => service.id === serviceId.id);
     return (
         <div style={{ background: '#F6F6F6' }}>
+            <ScrollToTopOnMount />
             <InnerHeader title='Шминка' subtitle={myService.title} />
 
             <div className='container'>
@@ -19,7 +22,7 @@ const MakeupServicePage = () => {
                         </h2> */}
                         <div className='mb-4'>
                             {myService.body.map((item) => (
-                                <p  className='px-lg-5 m-1 ' key={item}>
+                                <p className='px-lg-5 m-1 ' key={item}>
                                     {item}
                                 </p>
                             ))}

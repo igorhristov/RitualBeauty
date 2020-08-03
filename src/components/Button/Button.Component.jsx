@@ -3,9 +3,9 @@ import Button from 'react-bootstrap/Button';
 
 import './Button.Styles.css'
 
-const CustomButton = ({ title, cssClass }) => (
-    <Button variant='outline-danger' className={`${cssClass} ServicesButton`}>
-        {title}
+const CustomButton = ({ cssClass }) => (
+    <Button variant='outline-danger' className={`lead ${cssClass} ServicesButton`}>
+      Прочитај повеќе &#xbb;
     </Button>
 );
 

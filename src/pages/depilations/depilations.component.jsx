@@ -5,9 +5,12 @@ import depilationsData from '../../data/depilations';
 import InnerHeader from '../../components/innerHeader/innerHeader.component';
 import UslugiCard from '../../components/uslugiCard/uslugiCards.component';
 
+import ScrollToTopOnMount from '../../components/autoToTopScroll/scrollToTop';
+
 const ServicesPage = () => {
     return (
         <div style={{ background: '#F6F6F6' }}>
+            <ScrollToTopOnMount />
             <InnerHeader title='Депилација' subtitle='Нашите Третмани' />
 
             <div className='container'>
