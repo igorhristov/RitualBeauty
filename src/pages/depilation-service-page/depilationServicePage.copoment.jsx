@@ -31,7 +31,7 @@ const MakeupServicePage = () => {
                                 <img
                                     alt='makups'
                                     key={image}
-                                    className='p-1'
+                                    style={{ maxWidth: '100%', padding: '5px' }}
                                     src={require(`../../assets/images/${image}`)}
                                 />
                             ))}

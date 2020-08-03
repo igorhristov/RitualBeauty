@@ -20,6 +20,13 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.parallax .parallax-content p {
-    width: 70%;
+
+@media (max-width: 450px) {
+    .parallax .parallax-content p{
+        font-size: 16px;
+    }
+
+    .parallax .parallax-content h2{
+        font-size: 25px;
+    }
 }

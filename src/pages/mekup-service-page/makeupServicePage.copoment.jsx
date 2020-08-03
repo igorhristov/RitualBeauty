@@ -27,12 +27,12 @@ const MakeupServicePage = () => {
                                 </p>
                             ))}
                         </div>
-                        <div className='cards pb-5 text-center'>
+                        <div className='gallery pb-5 text-center '>
                             {myService.gallery.map((image) => (
                                 <img
-                                    alt='makups'
+                                    style={{ maxWidth: '100%', padding: '5px' }}
                                     key={image}
-                                    className='p-1'
+                                    alt='makups'
                                     src={require(`../../assets/images/${image}`)}
                                 />
                             ))}
