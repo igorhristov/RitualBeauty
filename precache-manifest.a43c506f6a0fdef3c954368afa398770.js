@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2405a03acb18a0073262cddd0a98984a",
+    "revision": "fabefb99a0ce762c6373ee62c62d3b5e",
     "url": "/RitualBeauty/index.html"
   },
   {
-    "revision": "51eab36adf4bd4026da5",
+    "revision": "d58e90ea2c8f682ad648",
     "url": "/RitualBeauty/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "63e243e389f146dbf776",
-    "url": "/RitualBeauty/static/css/main.3c9e93bd.chunk.css"
+    "revision": "538d9208be0ec87789eb",
+    "url": "/RitualBeauty/static/css/main.813f0a2d.chunk.css"
   },
   {
-    "revision": "51eab36adf4bd4026da5",
-    "url": "/RitualBeauty/static/js/2.547267cc.chunk.js"
+    "revision": "d58e90ea2c8f682ad648",
+    "url": "/RitualBeauty/static/js/2.82dffb98.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/RitualBeauty/static/js/2.547267cc.chunk.js.LICENSE.txt"
+    "url": "/RitualBeauty/static/js/2.82dffb98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63e243e389f146dbf776",
-    "url": "/RitualBeauty/static/js/main.a186482a.chunk.js"
+    "revision": "538d9208be0ec87789eb",
+    "url": "/RitualBeauty/static/js/main.d933a030.chunk.js"
   },
   {
     "revision": "9289d23c4e7ae6fe801b",
@@ -94,6 +94,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d80507e39a1594a060f816ce17531a9",
     "url": "/RitualBeauty/static/media/img1920x900.4d80507e.jpg"
+  },
+  {
+    "revision": "eb0949e093205ce1f06a073be4a2743f",
+    "url": "/RitualBeauty/static/media/makeup1.eb0949e0.jpg"
+  },
+  {
+    "revision": "5465058e1b01d111547c10a1ca5b7575",
+    "url": "/RitualBeauty/static/media/makeup2.5465058e.jpg"
+  },
+  {
+    "revision": "55b18d7dc091faf14dd8c1ca63c41e3f",
+    "url": "/RitualBeauty/static/media/makeup3.55b18d7d.jpg"
+  },
+  {
+    "revision": "06bc149d0d33b2d8f7eea489abf1831f",
+    "url": "/RitualBeauty/static/media/makeup4.06bc149d.jpg"
   },
   {
     "revision": "e41ecfb808c7e935869816c1752b2dd7",

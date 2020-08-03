@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RitualBeauty/static/css/main.3c9e93bd.chunk.css",
-    "main.js": "/RitualBeauty/static/js/main.a186482a.chunk.js",
-    "main.js.map": "/RitualBeauty/static/js/main.a186482a.chunk.js.map",
+    "main.css": "/RitualBeauty/static/css/main.813f0a2d.chunk.css",
+    "main.js": "/RitualBeauty/static/js/main.d933a030.chunk.js",
+    "main.js.map": "/RitualBeauty/static/js/main.d933a030.chunk.js.map",
     "runtime-main.js": "/RitualBeauty/static/js/runtime-main.69c5a060.js",
     "runtime-main.js.map": "/RitualBeauty/static/js/runtime-main.69c5a060.js.map",
     "static/css/2.af3c1da9.chunk.css": "/RitualBeauty/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.547267cc.chunk.js": "/RitualBeauty/static/js/2.547267cc.chunk.js",
-    "static/js/2.547267cc.chunk.js.map": "/RitualBeauty/static/js/2.547267cc.chunk.js.map",
+    "static/js/2.82dffb98.chunk.js": "/RitualBeauty/static/js/2.82dffb98.chunk.js",
+    "static/js/2.82dffb98.chunk.js.map": "/RitualBeauty/static/js/2.82dffb98.chunk.js.map",
     "index.html": "/RitualBeauty/index.html",
-    "precache-manifest.fb92cb6346f229d6a37a3b3423668425.js": "/RitualBeauty/precache-manifest.fb92cb6346f229d6a37a3b3423668425.js",
+    "precache-manifest.a43c506f6a0fdef3c954368afa398770.js": "/RitualBeauty/precache-manifest.a43c506f6a0fdef3c954368afa398770.js",
     "service-worker.js": "/RitualBeauty/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/RitualBeauty/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.3c9e93bd.chunk.css.map": "/RitualBeauty/static/css/main.3c9e93bd.chunk.css.map",
-    "static/js/2.547267cc.chunk.js.LICENSE.txt": "/RitualBeauty/static/js/2.547267cc.chunk.js.LICENSE.txt",
+    "static/css/main.813f0a2d.chunk.css.map": "/RitualBeauty/static/css/main.813f0a2d.chunk.css.map",
+    "static/js/2.82dffb98.chunk.js.LICENSE.txt": "/RitualBeauty/static/js/2.82dffb98.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/RitualBeauty/static/media/01.a63d332e.jpg",
     "static/media/02.jpg": "/RitualBeauty/static/media/02.2d6aa2d9.jpg",
     "static/media/03.jpg": "/RitualBeauty/static/media/03.fd439753.jpg",
@@ -31,6 +31,10 @@
     "static/media/glamuroznaSminka.jpg": "/RitualBeauty/static/media/glamuroznaSminka.d4002f0e.jpg",
     "static/media/innerHeader.styles.css": "/RitualBeauty/static/media/header-img.8cf07ac2.jpg",
     "static/media/img1920x900.jpg": "/RitualBeauty/static/media/img1920x900.4d80507e.jpg",
+    "static/media/makeup1.jpg": "/RitualBeauty/static/media/makeup1.eb0949e0.jpg",
+    "static/media/makeup2.jpg": "/RitualBeauty/static/media/makeup2.5465058e.jpg",
+    "static/media/makeup3.jpg": "/RitualBeauty/static/media/makeup3.55b18d7d.jpg",
+    "static/media/makeup4.jpg": "/RitualBeauty/static/media/makeup4.06bc149d.jpg",
     "static/media/nevestinska.jpg": "/RitualBeauty/static/media/nevestinska.e41ecfb8.jpg",
     "static/media/nevestinskaSminka.jpg": "/RitualBeauty/static/media/nevestinskaSminka.93c83fb8.jpg",
     "static/media/salon.jpg": "/RitualBeauty/static/media/salon.0764111d.jpg",
@@ -42,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.69c5a060.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.547267cc.chunk.js",
-    "static/css/main.3c9e93bd.chunk.css",
-    "static/js/main.a186482a.chunk.js"
+    "static/js/2.82dffb98.chunk.js",
+    "static/css/main.813f0a2d.chunk.css",
+    "static/js/main.d933a030.chunk.js"
   ]
 }
