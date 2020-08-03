@@ -10,7 +10,7 @@ const MAKEUPS = [
             `Секогаш треба да имате во предвид за каков настан се подготвувате и како ќе изгледа вашиот аутфит – бидејќи шминката мора да биде соодветна.`,
         ],
         imgUrl: 'makeup1.jpg',
-        gallery: ['makeup1.jpg', 'makeup2.jpg', 'makeup3.jpg', 'makeup4.jpg'],
+        gallery: ['makeup1.jpg', '532.jpg', 'makeup3.jpg', 'makeup4.jpg'],
     },
     {
         id: 'maturska-sminka',
