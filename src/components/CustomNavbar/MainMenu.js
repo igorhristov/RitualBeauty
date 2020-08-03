@@ -10,7 +10,7 @@ const MainMenu = [
     },
     {
         title: 'Депилација',
-        linkUrl: '/depilation',
+        linkUrl: '/depilations',
     },
     {
         title: 'Коса',
