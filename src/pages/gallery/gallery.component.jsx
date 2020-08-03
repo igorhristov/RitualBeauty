@@ -13,12 +13,7 @@ const AboutPage = () => (
                         Ritual Beauty
                     </h2>
                     <div>
-                        <p>
-                            Znacajno e da se razbere deka RITUAL e nadvoresen izraz na vnatresno iskuseni vrednosti,
-                            veruvanja i stavovi. Bas za toa ritalite se znacajni za nas, tie pravat nevidlivite raboti
-                            odnosno vrednosti, veruvanja, i stavovi, koi se cesto zatskrieni da stanat konkretni i
-                            vidlivi.
-                        </p>
+                    
                         <p>
                             Ние сме редовни посетители на најпознатите семинари и конгреси за убавина во светот, учиме,
                             се надградуваме, ги следиме трендовите и ви ги правиме достапни најдокажаните и

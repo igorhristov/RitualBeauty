@@ -1,25 +1,25 @@
 import React from 'react';
 
-import makeupsData from '../../data/SERVICES';
+import makeupsData from '../../data/makeups';
 
 import InnerHeader from '../../components/innerHeader/innerHeader.component';
 import UslugiCard from '../../components/uslugiCard/uslugiCards.component';
 
 const ServicesPage = () => {
     return (
-        <>
+        <div style={{ background: '#F6F6F6' }}>
             <InnerHeader title='Шминки' subtitle='Нашите Третмани' />
 
             <div className='container'>
                 <div className='row'>
-                    {makeupsData.makeups.map(({ id, imgUrl, body, title, spic }) => (
+                    {makeupsData.map(({ id, imgUrl, body, title, spic }) => (
                         <div className='col-md-4 col-sm-6 d-flex align-items-stretch mb-5' key={id}>
-                            <UslugiCard {...{ id, imgUrl, body, title, spic }} />
+                            <UslugiCard {...{ id, imgUrl, body, title, spic }} linkUrl='makeups' />
                         </div>
                     ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
