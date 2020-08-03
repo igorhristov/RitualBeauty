@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Button, Image } from 'react-bootstrap';
+import { Card, Image } from 'react-bootstrap';
+import Button from '../../Button/Button.Component';
 import './service.card.styles.css';
 
 const ServiceCardElement = ({ imgUrl, title, body, link }) => (
@@ -18,10 +19,8 @@ const ServiceCardElement = ({ imgUrl, title, body, link }) => (
             <Card.Text className='mt-0 py-0'>{body}</Card.Text>
         </Card.Body>
         <Card.Footer style={{ borderColor: 'transparent' }}>
-            <Link className='ServicesButton ' to={`/${link}`}>
-                <Button variant='outline-danger' className='ServicesButton'>
-                    {`Повеќе >>>`}
-                </Button>
+            <Link to={`/${link}`}>
+                <Button />
             </Link>
         </Card.Footer>
     </Card>

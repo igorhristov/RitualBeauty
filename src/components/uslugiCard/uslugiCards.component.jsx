@@ -22,8 +22,8 @@ const ServicesCard = ({ id, imgUrl, title, spic, linkUrl }) => (
             <Card.Text className='mt-0 py-0'>{spic}</Card.Text>
         </Card.Body>
         <Card.Footer style={{ background: 'none', borderColor: 'transparent' }}>
-            <Link className='ServicesButton ' to={`${linkUrl}/${id}`}>
-                <Button title='Повеќе' />
+            <Link to={`${linkUrl}/${id}`}>
+                <Button />
             </Link>
         </Card.Footer>
     </Card>

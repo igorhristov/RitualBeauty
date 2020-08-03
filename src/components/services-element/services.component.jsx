@@ -22,7 +22,7 @@ const Services = () => (
                             }
                             title={'Козметика и шминки'}
                             body={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh'}
-                            link={'services/glamuroznaSminka'}
+                            link={'makeups'}
                         />
                     </div>
                     <div className='col-md-4 col-sm-6 d-flex align-items-stretch mb-5'>
