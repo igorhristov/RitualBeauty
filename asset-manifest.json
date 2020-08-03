@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/RitualBeauty/static/css/main.813f0a2d.chunk.css",
-    "main.js": "/RitualBeauty/static/js/main.d933a030.chunk.js",
-    "main.js.map": "/RitualBeauty/static/js/main.d933a030.chunk.js.map",
+    "main.js": "/RitualBeauty/static/js/main.eaf34a3b.chunk.js",
+    "main.js.map": "/RitualBeauty/static/js/main.eaf34a3b.chunk.js.map",
     "runtime-main.js": "/RitualBeauty/static/js/runtime-main.69c5a060.js",
     "runtime-main.js.map": "/RitualBeauty/static/js/runtime-main.69c5a060.js.map",
     "static/css/2.af3c1da9.chunk.css": "/RitualBeauty/static/css/2.af3c1da9.chunk.css",
     "static/js/2.82dffb98.chunk.js": "/RitualBeauty/static/js/2.82dffb98.chunk.js",
     "static/js/2.82dffb98.chunk.js.map": "/RitualBeauty/static/js/2.82dffb98.chunk.js.map",
     "index.html": "/RitualBeauty/index.html",
-    "precache-manifest.a43c506f6a0fdef3c954368afa398770.js": "/RitualBeauty/precache-manifest.a43c506f6a0fdef3c954368afa398770.js",
+    "precache-manifest.aec2d6b55e0129517b7f412747a6a72f.js": "/RitualBeauty/precache-manifest.aec2d6b55e0129517b7f412747a6a72f.js",
     "service-worker.js": "/RitualBeauty/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/RitualBeauty/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.813f0a2d.chunk.css.map": "/RitualBeauty/static/css/main.813f0a2d.chunk.css.map",
@@ -48,6 +48,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.82dffb98.chunk.js",
     "static/css/main.813f0a2d.chunk.css",
-    "static/js/main.d933a030.chunk.js"
+    "static/js/main.eaf34a3b.chunk.js"
   ]
 }

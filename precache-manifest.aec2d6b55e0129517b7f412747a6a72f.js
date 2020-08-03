@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fabefb99a0ce762c6373ee62c62d3b5e",
+    "revision": "eb5c56249c2810a7b93ccedf491a951a",
     "url": "/RitualBeauty/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RitualBeauty/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "538d9208be0ec87789eb",
+    "revision": "ebd40e8afe3b6f163f15",
     "url": "/RitualBeauty/static/css/main.813f0a2d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RitualBeauty/static/js/2.82dffb98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "538d9208be0ec87789eb",
-    "url": "/RitualBeauty/static/js/main.d933a030.chunk.js"
+    "revision": "ebd40e8afe3b6f163f15",
+    "url": "/RitualBeauty/static/js/main.eaf34a3b.chunk.js"
   },
   {
     "revision": "9289d23c4e7ae6fe801b",
