@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/RitualBeauty/static/css/main.813f0a2d.chunk.css",
-    "main.js": "/RitualBeauty/static/js/main.eaf34a3b.chunk.js",
-    "main.js.map": "/RitualBeauty/static/js/main.eaf34a3b.chunk.js.map",
+    "main.css": "/RitualBeauty/static/css/main.cfaf3bb5.chunk.css",
+    "main.js": "/RitualBeauty/static/js/main.ee41f3d6.chunk.js",
+    "main.js.map": "/RitualBeauty/static/js/main.ee41f3d6.chunk.js.map",
     "runtime-main.js": "/RitualBeauty/static/js/runtime-main.69c5a060.js",
     "runtime-main.js.map": "/RitualBeauty/static/js/runtime-main.69c5a060.js.map",
     "static/css/2.af3c1da9.chunk.css": "/RitualBeauty/static/css/2.af3c1da9.chunk.css",
     "static/js/2.82dffb98.chunk.js": "/RitualBeauty/static/js/2.82dffb98.chunk.js",
     "static/js/2.82dffb98.chunk.js.map": "/RitualBeauty/static/js/2.82dffb98.chunk.js.map",
     "index.html": "/RitualBeauty/index.html",
-    "precache-manifest.aec2d6b55e0129517b7f412747a6a72f.js": "/RitualBeauty/precache-manifest.aec2d6b55e0129517b7f412747a6a72f.js",
+    "precache-manifest.80f91cb48c57f1ee4f75929ae01a612b.js": "/RitualBeauty/precache-manifest.80f91cb48c57f1ee4f75929ae01a612b.js",
     "service-worker.js": "/RitualBeauty/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/RitualBeauty/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.813f0a2d.chunk.css.map": "/RitualBeauty/static/css/main.813f0a2d.chunk.css.map",
+    "static/css/main.cfaf3bb5.chunk.css.map": "/RitualBeauty/static/css/main.cfaf3bb5.chunk.css.map",
     "static/js/2.82dffb98.chunk.js.LICENSE.txt": "/RitualBeauty/static/js/2.82dffb98.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/RitualBeauty/static/media/01.a63d332e.jpg",
     "static/media/02.jpg": "/RitualBeauty/static/media/02.2d6aa2d9.jpg",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.69c5a060.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.82dffb98.chunk.js",
-    "static/css/main.813f0a2d.chunk.css",
-    "static/js/main.eaf34a3b.chunk.js"
+    "static/css/main.cfaf3bb5.chunk.css",
+    "static/js/main.ee41f3d6.chunk.js"
   ]
 }
