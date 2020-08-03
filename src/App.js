@@ -4,11 +4,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/home/home.component';
 import GalleryPage from './pages/gallery/gallery.component';
 import ContactUs from './pages/contact/contact.component';
-import ServicesPage from './pages/services/services.component';
-import ServicePage from './pages/service/service.component';
+
 
 import MakeupsPage from './pages/makeups/makeups.component';
 import MakeupsServicePage from'./pages/mekup-service-page/makeupServicePage.copoment'
+import DepilationsPage from './pages/depilations/depilations.component';
+import DepilationsServicePage from'./pages/depilation-service-page/depilationServicePage.copoment'
+
 
 import Header from './components/CustomNavbar/CustomNavbar';
 import Footer from './components/footer/footer.component';
@@ -32,12 +34,15 @@ const App = () => (
                 <MakeupsServicePage />
             </Route>
 
-            <Route exact path='/services'>
-                <ServicesPage />
+            <Route exact path='/depilations'>
+                <DepilationsPage />
             </Route>
-            <Route path='/services/:id'>
-                <ServicePage />
+            <Route path='/depilations/:id'>
+                <DepilationsServicePage />
             </Route>
+
+           
+
             
             <Route path='/gallery'>
                 <GalleryPage />
