@@ -12,14 +12,14 @@ const MainMenu = [
         title: 'Депилација',
         linkUrl: '/depilations',
     },
-    {
-        title: 'Коса',
-        linkUrl: '/services',
-    },
-    {
-        title: 'Педикир',
-        linkUrl: '/services',
-    },
+    // {
+    //     title: 'Коса',
+    //     linkUrl: '/services',
+    // },
+    // {
+    //     title: 'Педикир',
+    //     linkUrl: '/services',
+    // },
    
     {
         title: 'Галерија',

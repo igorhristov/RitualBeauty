@@ -17,7 +17,7 @@ const Footer = () => (
                     <h5 className=' mr-md-5 mb-4'>Get In Touch</h5>
 
                     <p className='text-md-left'>
-                        ул. Еоименонда Поп-Андонов бр.20 <br /> 2400 Струмица Македонија
+                        ул. Епименонда Поп-Андонов бр.20 <br /> 2400 Струмица Македонија
                     </p>
 
                     <p className='text-md-left'>
@@ -69,11 +69,11 @@ const Footer = () => (
                     <FontAwesomeIcon size='3x' className='footer-title' icon={faLink} />
                     <h5 className='mb-4'>Useful Links</h5>
 
-                    <Link to='/contact-us' className='footer-links'>
+                    <Link to='/' className='footer-links'>
                         Тимот на Ritual Beauty
                     </Link>
 
-                    <Link to='/contact-us' className='footer-links'>
+                    <Link to='/makeups' className='footer-links'>
                         Услуги
                     </Link>
 

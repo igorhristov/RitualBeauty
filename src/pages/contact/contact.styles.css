@@ -1,0 +1,48 @@
+.contact-wrapper {
+  padding: 4rem 0;
+}
+
+.center {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .center {
+    width: 50vw;
+    margin: 0 auto;
+  }
+}
+
+label {
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #ec4090;
+}
+
+.formControl,
+.submit {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ec4090;
+  border-radius: 0.25rem;
+}
+
+.submit {
+  background-color: #ec4090;
+  border-color: #ec4090;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+
+}
+
+.submit:hover {
+  background: white;
+  color: #ec4090;
+  border-color: #ec4090;
+}
